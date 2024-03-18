@@ -1,0 +1,100 @@
+
+aside{
+    
+    background-color: #333;
+    width: 250px;
+    height: 1200px;
+    color: #ffffff;
+    padding-left: 50px;
+}
+
+.mainContent{
+    display: block;
+    margin-left: 50px;
+    width: 600px;
+    ;
+}
+
+
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.long-read{
+    width: 600px;
+}
+
+p {
+    text-decoration: none; /* Прибираємо підкреслення для всіх посилань */
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+  }
+
+  
+  section {
+    margin: 20px;
+    display: flex;
+    border: solid 2px ;
+    
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: disc; /* disc - це крапочки, інші можливі значення - circle, square, none, decimal, upper-alpha, lower-alpha, upper-roman, lower-roman, etc. */
+    padding: 100; /* Зазначте власний внутрішній відступ, якщо потрібно */
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 2px;
+  }
+  
+  header{
+    text-align: center;
+    border: 2px solid #333; /* Товщина, тип та колір рамки */
+    padding: 10px; /* Внутрішній відступ від рамки до тексту */
+    margin: 10px; /* Зовнішній відступ навколо рамки */
+
+  }
+
+  #work{
+    padding-left: 20px;
+
+  }
+
+  hr {
+    border: 1px solid #333; /* Товщина, тип та колір лінії */
+    margin: 20px 0; /* Внутрішній відступ від лінії */
+  }
+
+
+
+  
+
+
+
+
+
+
+  
+
+ 
+  

@@ -12,6 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 
     <title>My resume</title>
 </head>
@@ -20,117 +21,19 @@
     
     <!-- Wrapper -->
     
-    <div>
+    <div class="overall">
         <!-- main content -->
-        <section>  
-        <!-- <div> -->
-
-            <!-- About me -->
-
-            <div>
-                <h2>Front-End Developer</h2>
-                <h1>Mikholat Evgen</h1>  
-
-                <p>A young and ambitious student who seeks to solve problems of varying complexity, work
-                  in a prestigious company and a friendly team, and gain experience in information
-                  technologies.
-                  I can perform assigned tasks efficiently and on time and am open to helping colleagues.
-                  The main character traits are diligence, benevolence, punctuality, and quick
-                  adaptability </p>
-
-            </div> 
-
-
-            <!-- My project -->
-            <div>
-                <h3>Projects</h3> 
-                
-                <ol>
-                    <li>
-                        <a href=" https://www.google.com/">https://www.google.com/</a>
-                        ........................ [ HTML5, CSS3 ]
-                    </li>
-                     <li>                 
-                        <a href="https://www.google.com/">https://www.google.com/</a>
-                        .................[ JavaScript ]
-                    </li>
-                    <li>
-                        <a href="https://www.google.com/">https://www.google.com//</a>
-                        .................... [ React.js, Node.js ]
-                    </li>
-                </ol>
-            </div>  
-            <!-- Work experience -->
-            <div>
-
-                <h3>Work Experience</h3>
-
-                <!-- Company -->
-                <div>
-                    <h4>Front-End Developer Freelance </h4>
-
-                    <p>September 2019 - up to now | Country</p>
-
-                    <ul>
-                        <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Risus commodo viverra maecenas. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-                    </ul>
-                </div>
-
-                <!-- Company 2 -->
-                <div>
-                    <h4>Manager Banderogusak & Co.</h4>
-                    <p>March 2015 - October 2020 | Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore
-                            magna aliqua. </li>
-                        <li>Quis ipsum suspendisse ultrices gravida.</li>
-                        <li>Risus commodo viverra maecenas. </li>
-                    </ul>
-                </div>
-
-                <!-- Company 3.-->
-                <div>
-                    <h4>Manager BestUA Corp.</h4>
-                    <p>March 2013 - October 2015 | Country</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                        <li>Quis ipsum suspendisse ultrices gravida..</li>
-                        <li>Risus commodo viverra maecenas. </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Education -->
-            <div>
-
-                <h3>Education</h3>
-
-                <h4>National University of Management</h4>
-                <p>Management
-                    September 2009 - June 2015 | Country</p>
-
-            </div>
-            
-        <!-- </div> -->
-        </section>
-
-
-
-
-        <!-- Sidebar -->
+        <section>
+            <!-- Sidebar -->
         <aside>
-            <img src="photo.PNG" alt="My foto" width="200px" height="250px">
+            <img src="photo.PNG" style="margin-top: 30px;" alt="My foto" width="200px" height="250px">
 
             <!-- Contacts -->
             <div>
                 <h3>Contacts</h3>
 
-                <p> C: <a href="tel:+380665670010">+380665670010 </a></p>
-                <p> E: <a href="mailto:vasuluna@gmail.com"> vasuluna@gmail.com </a> </p>
+                <p> C: <a style="text-decoration: none; color: rgb(255, 255, 255);" href="tel:+380665670010">+380665670010 </a></p>
+                <p> E: <a style="text-decoration: none; color: rgb(255, 255, 255);" href="mailto:vasuluna@gmail.com"> vasuluna@gmail.com </a> </p>
             </div>
 
             <!-- Tech Skils -->
@@ -161,7 +64,128 @@
                 </ul>
 
             </div>
-        </aside>
+        </aside>  
+        <!-- <div> -->
+
+            <!-- About me -->
+
+            <div class="mainContent">
+                <div class="about">
+                    <h1 style="margin-bottom: 0px; text-align: center;">Mikholat Evgen</h1> 
+                    <h2  style="margin-top: 4px; text-align: center;">Front-End Developer</h2>
+                     
+    
+                    <p style="color: rgba(89, 89, 89, 1);" class="long-read">A young and ambitious student who seeks to solve problems of varying complexity, work
+                      in a prestigious company and a friendly team, and gain experience in information
+                      technologies.
+                      I can perform assigned tasks efficiently and on time and am open to helping colleagues.
+                      The main character traits are diligence, benevolence, punctuality, and quick
+                      adaptability </p>
+    
+                </div> 
+    
+    
+                <!-- My project -->
+                <div>
+                    <h3>Projects</h3> 
+                    
+                    <ol>
+                        <li>
+                            <a href=" https://www.google.com/">https://www.google.com/</a>
+                            ........................ [ HTML5, CSS3 ]
+                        </li>
+                         <li>                 
+                            <a href="https://www.google.com/">https://www.google.com/</a>
+                            .................[ JavaScript ]
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/">https://www.google.com//</a>
+                            .................... [ React.js, Node.js ]
+                        </li>
+                    </ol>
+                </div>  
+                <!-- Work experience -->
+                <div>
+    
+                    <h3>Work Experience</h3>
+    
+                    <!-- Company -->
+                    <div>
+                        <div class="work1" style="display: flex; margin-bottom: 1px;">
+                            <h4 style="margin-right: 10px;">Front-End Developer  </h4>
+                            <h4 style="color: rgba(109, 155, 245, 1)"> Freelance </h4>
+
+                        </div>
+                        
+    
+                        <p style="color: rgba(168, 168, 168, 1); margin-top: 1px;">September 2019 - up to now | Country</p>
+    
+                        <ul>
+                            <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. </li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Risus commodo viverra maecenas. </li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                        </ul>
+                    </div>
+    
+                    <!-- Company 2 -->
+                    <div>
+                        <div class="work2" style="display: flex; margin-bottom: 1px;">
+                            <h4 style="margin-right: 10px;">Manager </h4>
+                            <h4 style="color: rgba(109, 155, 245, 1)"> Banderogusak & Co. </h4>
+
+                        </div>
+                        <p style="color: rgba(168, 168, 168, 1); margin-top: 1px;">March 2015 - October 2020 | Country</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore
+                                magna aliqua. </li>
+                            <li>Quis ipsum suspendisse ultrices gravida.</li>
+                            <li>Risus commodo viverra maecenas. </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Company 3.-->
+                    <div>
+                        <div class="work2" style="display: flex; margin-bottom: 1px;">
+                            <h4 style="margin-right: 10px;">Manager </h4>
+                            <h4 style="color: rgba(109, 155, 245, 1)"> BestUA Corp. </h4>
+
+                        </div>
+                        <p style="color: rgba(168, 168, 168, 1);  margin-top: 1px;">March 2013 - October 2015 | Country</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                            <li>Quis ipsum suspendisse ultrices gravida..</li>
+                            <li>Risus commodo viverra maecenas. </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Education -->
+                <div>
+    
+                    <h3>Education</h3>
+    
+                    <h4 style="color: rgba(109, 155, 245, 1)">National University of Management</h4>
+                    <p>Management
+                        September 2009 - June 2015 | Country</p>
+    
+                </div>
+
+                
+            
+            
+            </div>
+
+            
+            
+        <!-- </div> -->
+        </section>
+
+
+
+
+        
 </div>
 </body>
 </html>
